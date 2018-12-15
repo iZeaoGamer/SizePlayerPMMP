@@ -13,6 +13,7 @@ use pocketmine\{
 use pocketmine\utils\TextFormat as TF;
 use pocketmine\entity\Entity;
 use SizePLayer\SizePLayerCommand;
+use pocketmine\event\player\PlayerRespawnEvent;
 class SizePLayer extends PluginBase {
     
     /** var $size */
